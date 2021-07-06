@@ -8,7 +8,12 @@ body {
 h1{
     font-size: 40px;
 }
-section{
+footer{
+    height:256px;
+    background-color: #000019;
+    text-align: center;
+}
+.flexible-container{
     display: flex;
 }
 .Order-Food{
@@ -18,12 +23,15 @@ section{
 }
 .About-Me{
     height: 500px;
-    background-image: url("images/shapes/7.png  ");
+    background-image: url("images/shapes/Frame 58.jpg ");
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
 }
-.Recipies{
-    height: 500px;
+.recipies{
+    height: 300px;
+    text-align: center;
+    display: block;
 }
 .half-width{
     width: 50%;
@@ -64,9 +72,59 @@ section{
     color: gray;
 
 }
+.cards{
+    text-align: center;
+    width: 100%;
+}
+.card-all{
+    width: 33%;
+    height: 500px;
+    text-align:left;
+    box-shadow: 7px 7px 22px grey;
+    border-radius: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.cards-img{
+    width: 350px;
+    height: 250px;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius:20px;
+}
+.cards-text{
+    color: gray;
+    font-size: 15px;
+    padding-left: 15px;
+}
+.cards-title{
+    padding-left: 15px;
+}
+#recipies-header{
+    color:gray;
+    font-size:30px;
+    font-weight:700;
+    text-align: center;
+}
+#recipies-text{
+    color:gray;
+    font-size:15px;
+    font-weight:300;
+    text-align: center;
+}
 #orange{
     color: orangered;
 }
 #about-title{
     color: gray;
+}
+#footer-title{
+    color: gray;
+    padding-top: 25px;
+}
+#footer-text{
+    color: white;
 }
