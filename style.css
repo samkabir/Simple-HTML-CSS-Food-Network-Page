@@ -1,0 +1,72 @@
+/* 
+Author: Samiul Kabir
+*/
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 40px;
+}
+section{
+    display: flex;
+}
+.Order-Food{
+    height: 500px;
+    text-align: left;
+    padding-left: 5%;
+}
+.About-Me{
+    height: 500px;
+    background-image: url("images/shapes/7.png  ");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.Recipies{
+    height: 500px;
+}
+.half-width{
+    width: 50%;
+}
+.para-first{
+    font-weight: 100;
+    color: gray;
+}
+.food-Button{
+    text-decoration: none;
+    background-image:linear-gradient(to right, orange, red);
+    padding: 10px 40px;
+    border-radius:20px;
+    color: white;
+    font-weight:700;
+}
+.first-img{
+    height: 90%;
+}
+.contact-me{
+    text-decoration: none;
+    background-image:linear-gradient(to right, orange, red);
+    padding: 10px 40px;
+    border-radius:20px;
+    color: white;
+    font-weight:700;
+}
+.me-burger{
+    width: 50%;
+    padding-top: 50px;
+}
+.about-me-text{
+    text-align: center;
+    width: 50%;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    font-weight: 300;
+    color: gray;
+
+}
+#orange{
+    color: orangered;
+}
+#about-title{
+    color: gray;
+}
